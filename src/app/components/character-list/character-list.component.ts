@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { CharacterCardComponent } from '../character-card/character-card.component';
 import { ApiService } from '../../services/api.service';
 import { IApiResponse, ICharacter } from '../../types/api-response.type';
-import { FavoriteQuery } from '../../stores/favorite.store';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { StateService } from '../../state.service';
@@ -17,7 +16,7 @@ import { throwError } from 'rxjs';
   selector: 'app-character-list',
   standalone: true,
   imports: [CharacterCardComponent, MatFormFieldModule, MatInputModule, MatButtonModule, FormsModule], // Importando o componente de card
-  providers: [ApiService, FavoriteQuery, DebounceService],
+  providers: [ApiService, DebounceService],
   templateUrl: './character-list.component.html',
   styleUrls: ['./character-list.component.css']
 })
