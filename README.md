@@ -1,8 +1,12 @@
 # Rick and Morty App
 
-🎉 **Explore e Salve seus Personagens Favoritos do Universo de *Rick and Morty*!** 🎉
+ **Explore e Salve seus Personagens Favoritos do Universo de *Rick and Morty*!** 
 
 Esta aplicação permite que você busque e gerencie seus personagens favoritos da série *Rick and Morty*, utilizando a [Rick and Morty API](https://rickandmortyapi.com/). Desenvolvida em **Angular**, a aplicação oferece uma experiência simples para explorar o universo da série.
+
+![Angular](https://img.shields.io/badge/Angular-red?style=flat&logo=angular&logoColor=white) 
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat&logo=typescript&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white) 
 
 ## Funcionalidades
 
@@ -16,11 +20,7 @@ Esta aplicação permite que você busque e gerencie seus personagens favoritos 
 - **TypeScript**: Para uma tipagem mais segura.
 - **CSS**: Para estilização responsiva.
 
-## Tags de Tecnologia
 
-![Angular](https://img.shields.io/badge/Angular-red?style=flat&logo=angular&logoColor=white) 
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat&logo=typescript&logoColor=white) 
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white) 
 
 ## Como Rodar o Projeto
 
