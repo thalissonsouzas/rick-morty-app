@@ -7,6 +7,8 @@ Esta aplicação permite que você busque e gerencie seus personagens favoritos 
 ![Angular](https://img.shields.io/badge/Angular-red?style=flat&logo=angular&logoColor=white) 
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat&logo=typescript&logoColor=white) 
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white) 
+![RxJS](https://img.shields.io/badge/RxJS-Spyder?style=flat&logo=rxjs&logoColor=white)
+
 
 ## Funcionalidades
 
@@ -19,6 +21,7 @@ Esta aplicação permite que você busque e gerencie seus personagens favoritos 
 - **Angular**: Para a construção da aplicação web.
 - **TypeScript**: Para uma tipagem mais segura.
 - **CSS**: Para estilização responsiva.
+- **RxJS**: Biblioteca para programação reativa, utilizada para gerenciar estados e eventos assíncronos.
 
 
 
