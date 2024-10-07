@@ -28,7 +28,7 @@ Siga os passos abaixo para rodar a aplicação localmente:
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/thalissonsouzas/rick-morty-app/.git
+   git clone git@github.com:thalissonsouzas/rick-morty-app.git
 
 2. **Navegue até a pasta do projeto:**
    ```bash
