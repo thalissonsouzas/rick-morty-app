@@ -16,7 +16,8 @@ Esta aplicação permite que você busque e gerencie seus personagens favoritos 
 - ❤️ **Favoritos**: Salve seus personagens favoritos em uma lista.
 - 🌐 **API Integrada**: Consome dados da Rick and Morty API.
 
-## Tecnologias Usadas
+
+# Tecnologias Usadas
 
 - **Angular**: Para a construção da aplicação web.
 - **TypeScript**: Para uma tipagem mais segura.
@@ -24,6 +25,8 @@ Esta aplicação permite que você busque e gerencie seus personagens favoritos 
 - **RxJS**: Biblioteca para programação reativa, utilizada para gerenciar estados e eventos assíncronos.
 
 
+## Confira o Deploy
+https://thalissonsouzas.github.io/rick-morty-app/
 
 ## Como Rodar o Projeto
 
