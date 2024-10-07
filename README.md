@@ -1,27 +1,42 @@
-# RickAndMortyApp
+# Rick and Morty App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+🎉 **Explore e Salve seus Personagens Favoritos do Universo de *Rick and Morty*!** 🎉
 
-## Development server
+Esta aplicação permite que você busque e gerencie seus personagens favoritos da série *Rick and Morty*, utilizando a [Rick and Morty API](https://rickandmortyapi.com/). Desenvolvida em **Angular**, a aplicação oferece uma experiência simples para explorar o universo da série.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+- 🔍 **Busca**: Pesquise personagens pelo nome.
+- ❤️ **Favoritos**: Salve seus personagens favoritos em uma lista.
+- 🌐 **API Integrada**: Consome dados da Rick and Morty API.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Usadas
 
-## Build
+- **Angular**: Para a construção da aplicação web.
+- **TypeScript**: Para uma tipagem mais segura.
+- **CSS**: Para estilização responsiva.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tags de Tecnologia
 
-## Running unit tests
+![Angular](https://img.shields.io/badge/Angular-red?style=flat&logo=angular&logoColor=white) 
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat&logo=typescript&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white) 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Como Rodar o Projeto
 
-## Running end-to-end tests
+Siga os passos abaixo para rodar a aplicação localmente:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/thalissonsouzas/rick-morty-app/.git
 
-## Further help
+2. **Navegue até a pasta do projeto:**
+   ```bash
+   cd rick-morty-app/
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. **Instale as dependências:**
+   ```bash
+   npm install
+4. **Inicie a aplicação:**
+   ```bash
+   ng serve
