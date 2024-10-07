@@ -1,0 +1,57 @@
+.card {
+  width: 224px;
+  height: 298px;
+  min-width: 192px;
+  max-width: 224px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+button[mat-icon-button] {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.gray {
+  color: black;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+  overflow: hidden; /* Esconde o texto que não cabe no espaço */
+  text-overflow: ellipsis; /* Adiciona "..." ao final do texto que não cabe */
+}
+
+.species {
+  font-family: 'Poppins', sans-serif;
+  color: #A4A4A4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+mat-card-content {
+  padding-top: 10px;
+}
+mat-card-content p {
+  margin: 0; /* Remove a margem padrão */
+  padding-top: 5px; /* Remove qualquer padding extra, se houver */
+}
+
+

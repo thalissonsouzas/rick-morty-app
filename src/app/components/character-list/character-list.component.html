@@ -1,0 +1,54 @@
+<main>
+  <nav>
+    @if (!menuFavorite){
+      <h1>INÍCIO</h1>
+    } @else{
+      <h1>FAVORITOS</h1>
+    }
+
+    @if (!menuFavorite){
+      <p>
+      <mat-form-field appearance="outline">
+        <mat-label>Pesquisar</mat-label>
+        <input matInput placeholder=""  [ngModel]="searchName" (ngModelChange)="onSearchNameChange($event)">
+      </mat-form-field>
+    </p>
+  }
+
+  </nav>
+  @if (menuFavorite) {
+    <div>
+      @for (item of favorites; track item.id) {
+        <app-character-card [character]="item"></app-character-card>
+      }
+
+      @if (favorites.length === 0) {
+        <div class="noResults">
+          <p>Parece que você ainda não tem favoritos</p>
+          <p class="p2">Volte à página inicial e escolha os melhores para você.</p>
+          <button (click)="toggleMenu()">Voltar ao início</button>
+        </div>
+      }
+    </div>
+  } @else {
+    <div>
+      @for (item of response?.results; track item.id) {
+        <app-character-card [character]="item"></app-character-card>
+      }
+
+      @if (response?.results?.length === 0) {
+        <div class="noResults">
+          <p>Nada foi encontrado :(</p>
+          <p class="p2">Tente realizar uma nova busca.</p>
+        </div>
+      }
+    </div>
+  }
+
+  @if (!menuFavorite) {
+    <div class="pages">
+      <button class="pageButton" (click)="previousPage()" [disabled]="page === 1">ANTERIOR</button>
+      <button class="pageButton"  (click)="nextPage()" [disabled]="isLastPage">PRÓXIMO</button>
+    </div>
+  }
+</main>

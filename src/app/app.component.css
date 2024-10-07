@@ -1,0 +1,13 @@
+.main {
+  color: white;
+  background-color: #1F1F1F;
+}
+
+.centro {
+  display: flex; /* Torna o container um flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: #1F1F1F;
+  height: 100%; /* Assegura que a altura de .centro ocupe o espaço necessário */
+}
+

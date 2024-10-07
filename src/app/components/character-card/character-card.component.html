@@ -1,0 +1,17 @@
+<mat-card class="card creepster-regular" appearance="outlined">
+  <button mat-icon-button (click)="toggleFavorite()" aria-label="Example icon button with a vertical three dot icon">
+    @if (isFavorite) {
+      <mat-icon class="gray">favorite</mat-icon>
+    } @else {
+    <mat-icon class="material-icons-outlined black">favorite_outline</mat-icon>
+    }
+  </button>
+  <img mat-card-image [src]="character?.image" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p class="card-title">
+      {{ character?.name }}
+    </p>
+    <p class="species">{{character?.species}}</p>
+  </mat-card-content>
+</mat-card>
+

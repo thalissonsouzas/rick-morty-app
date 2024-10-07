@@ -1,0 +1,46 @@
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding-right: 20px;
+}
+
+img {
+  width: 114px;
+  height: 64px;
+  margin-left: 20px;}
+
+.logo {
+  font-size: 24px;
+  font-family: 'YourFont', sans-serif; /* Substitua 'YourFont' pela fonte desejada */
+  color: #00ff00; /* Cor verde para o efeito degradê */
+  text-shadow: 2px 2px 4px #0000ff; /* Efeito de sombra azul */
+}
+
+.nav-links, .social-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li, .social-links li {
+  margin-right: 10px;
+}
+
+.fa-heart {
+  color: red; /* Cor do ícone de coração */
+}
+
+.badge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 11px;
+  border-radius: 50%;
+  line-height: 20px;
+  color: white;
+  background-color: #00B5CC;
+}
+
